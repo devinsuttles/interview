@@ -60,7 +60,7 @@ class Organize:
     def txt_fileGenerator(self):
         """Function that helps generate file of string of words sorted by numerics than alphabetically
         """
-        output_file = open('output.txt', 'w')
+        output_file = open('sorted-list.txt', 'w')
 
         keys_inOrder = list(self.dictionary.keys())
         keys_inOrder.sort()
