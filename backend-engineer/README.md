@@ -5,7 +5,7 @@
 python main.py example-list.txt 
 ```
 
-## Run Test
+## Run Tests
 ```sh
 pytest -v
 ```
